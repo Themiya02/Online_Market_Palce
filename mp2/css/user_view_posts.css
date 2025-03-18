@@ -1,0 +1,189 @@
+
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            background-color: #0d6efd;
+            padding: 10px 20px;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: 500;
+            padding: 10px 15px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #0056b3 !important;
+            color: #ffffff !important;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .card-footer {
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+            padding: 15px;
+        }
+
+        .card-footer .btn {
+            width: 100%;
+        }
+
+        .list-group-item {
+            border: 0;
+            padding: 12px;
+            background-color: #ffffff;
+            font-weight: 500;
+        }
+
+        .list-group-item.active {
+            background-color: #0d6efd;
+            color: white;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            max-width: 500px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+
+        .search-bar input {
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 30px 0 0 30px;
+        }
+
+        .search-bar button {
+            padding: 12px;
+            border-radius: 0 30px 30px 0;
+        }
+
+        /* Sidebar Filters */
+        .filters-sidebar {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        .filters-sidebar h4 {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .filters-sidebar .list-group-item {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 1rem;
+            background-color: #fff;
+            border: 0;
+        }
+
+        .filters-sidebar .list-group-item a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .filters-sidebar .list-group-item:hover {
+            background-color: #e9ecef;
+            cursor: pointer;
+        }
+
+        /* Scrollable Products Section */
+        .products-container {
+            height: 85vh; /* Adjust height as needed */
+            overflow-y: auto;
+        }
+
+        /* Make the container width more compact (removes excessive left and right padding) */
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 992px) {
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+
+            .search-bar {
+                max-width: 100%;
+            }
+
+            .card-img-top {
+                height: 200px;
+            }
+
+            .filters-sidebar {
+                padding-left: 15px;
+                margin-left: 15px;
+            }
+        }
+        .logout{
+
+            background: #b30004;
+            border-radius: 10px 10px 10px 10px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            font-weight: bold;
+        }
